@@ -1,0 +1,16 @@
+{
+  "name": "koenigsberg-project",
+  "private": true,
+  "workspaces": [
+    "web",
+    "server"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:server": "npm run dev -w server",
+    "dev": "concurrently \"npm run dev -w web\" \"npm run dev -w server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

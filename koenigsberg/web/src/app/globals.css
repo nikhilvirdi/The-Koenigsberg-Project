@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Georgia, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    background-color: #FAFAF8;
+    color: #1A1A1A;
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 19px;
+    line-height: 1.9;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+  }
+
+  th {
+    font-size: 16px;
+  }
+
+  td {
+    font-size: 18px;
+  }
+
+  /* Navigation links styling */
+  nav a {
+    font-size: 18px !important;
+  }
+
+  /* Sidebar styling */
+  .sidebar-body,
+  .sidebar-body span,
+  .sidebar-body p,
+  .sidebar-body a {
+    font-size: 17px !important;
+  }
+
+  .sidebar-header {
+    font-size: 15px !important;
+  }
+}
