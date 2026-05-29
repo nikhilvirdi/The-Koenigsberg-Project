@@ -23,7 +23,7 @@ export default function Navbar() {
           <img 
             src={logoImg.src} 
             alt="The Koenigsberg Project" 
-            className="h-[48px] w-auto block border-none bg-transparent" 
+            className="h-[96px] w-auto block border-none bg-transparent object-contain" 
           />
         </Link>
       </div>
