@@ -111,7 +111,7 @@ export default function Page() {
         </div>
 
         {/* Right Column - Sidebar */}
-        <div className="w-64 flex-shrink-0 sticky top-6 flex flex-col gap-4">
+        <div className="w-64 flex-shrink-0 flex flex-col gap-4">
           {/* Box 1: Check Out */}
           <div className="border border-[#C8C0B4] bg-[#FAFAF8] rounded-[6px]">
             <div className="bg-[#6B4C3B] text-white sidebar-header font-mono py-[6px] px-[12px] uppercase rounded-[5px_5px_0_0]">

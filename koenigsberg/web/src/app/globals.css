@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +15,10 @@
   p {
     font-size: 19px;
     line-height: 1.9;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Alegreya SC', serif;
   }
 
   h1 {

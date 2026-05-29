@@ -16,11 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased flex flex-col min-h-screen">
+        <Navbar />
         <div className="max-w-[1280px] w-full mx-auto px-6 flex-grow flex flex-col">
-          <Navbar />
           <div className="flex-grow">{children}</div>
-          <Footer />
         </div>
+        <Footer />
       </body>
     </html>
   );
